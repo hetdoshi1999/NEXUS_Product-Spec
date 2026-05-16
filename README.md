@@ -1,7 +1,8 @@
-# MERIDIAN — Executive Product Specification
+````markdown
+# NEXUS — Executive Product Specification
 ### AI-Powered Decision Intelligence Platform
 
-> *"The quality of your life is the sum of the quality of your decisions. Meridian exists to raise that sum."*
+> *"The quality of your life is the sum of the quality of your decisions. Nexus exists to raise that sum."*
 
 **Version:** 1.0 — Internal Strategy Document  
 **Status:** Pre-Seed / Founding Team Alignment  
@@ -32,9 +33,9 @@
 
 # 1. EXECUTIVE SUMMARY
 
-## What Is Meridian?
+## What Is Nexus?
 
-Meridian is an AI-powered **decision intelligence platform** — a structured reasoning engine that models who you are, understands the decision in front of you, surfaces trade-offs you didn't know existed, and explains its recommendations with the transparency of a trusted expert friend.
+Nexus is an AI-powered **decision intelligence platform** — a structured reasoning engine that models who you are, understands the decision in front of you, surfaces trade-offs you didn't know existed, and explains its recommendations with the transparency of a trusted expert friend.
 
 It is not a search engine. Not a chatbot. Not a comparison table. It is the first product built specifically around the act of **deciding** — an experience most people navigate with anxiety, incomplete information, and cognitive bias, every single day.
 
@@ -57,7 +58,7 @@ Three forces converge to make this possible today and only today:
 
 ## Core Innovation
 
-Meridian's core innovation is not AI. It's **structured reasoning applied to personal decisions at scale** — a system that treats every incoming decision as a classification problem, a value extraction problem, a weighting problem, and a scenario modeling problem, all simultaneously, for a specific human with a specific history and a specific life context.
+Nexus's core innovation is not AI. It's **structured reasoning applied to personal decisions at scale** — a system that treats every incoming decision as a classification problem, a value extraction problem, a weighting problem, and a scenario modeling problem, all simultaneously, for a specific human with a specific history and a specific life context.
 
 ## Vision Statement
 
@@ -74,7 +75,7 @@ Meridian's core innovation is not AI. It's **structured reasoning applied to per
 
 ## Long-Term Platform Potential
 
-Meridian begins as a consumer decision tool and evolves into:
+Nexus begins as a consumer decision tool and evolves into:
 - A **family decision OS** — shared reasoning for couples, households, co-founders
 - A **professional reasoning layer** — embedded in financial advisory, HR platforms, healthcare portals
 - A **decision data network** — anonymized, opt-in outcome data that improves recommendations for all users
@@ -92,6 +93,7 @@ This is not a character flaw. It is a **system design failure**. Humans were not
 
 ## The Eight Failure Modes
 
+```
 ┌─────────────────────────────────────────────────────────────────┐
 │                  WHY DECISIONS FAIL                             │
 ├──────────────────────────┬──────────────────────────────────────┤
@@ -106,6 +108,7 @@ This is not a character flaw. It is a **system design failure**. Humans were not
 │ Emotional Static         │ Fear and loss aversion distort signal│
 │ Consequence Blindness    │ Can't see second-order effects       │
 └──────────────────────────┴──────────────────────────────────────┘
+```
 
 ## Why Existing Tools Fail
 
@@ -133,46 +136,164 @@ All five are now achievable. The category has been waiting for the infrastructur
 
 # 3. PRODUCT VISION
 
-## What Meridian Becomes in 10 Years
+## What Nexus Becomes in 10 Years
 
 **Year 1–2:** Consumer decision tool. People bring their hardest choices — job offers, apartments, insurance plans, big purchases — and leave with clarity.
 
-**Year 3–4:** Platform with memory. Meridian knows your financial profile, your career arc, your values, your past decisions and their outcomes. The recommendations are as personalized as advice from someone who has known you for years.
+**Year 3–4:** Platform with memory. Nexus knows your financial profile, your career arc, your values, your past decisions and their outcomes. The recommendations are as personalized as advice from someone who has known you for years.
 
-**Year 5–6:** Collaborative decision layer. Couples, co-founders, and families use Meridian as a shared reasoning space. It doesn't take sides — it surfaces where you agree, where you diverge, and what you each actually need.
+**Year 5–6:** Collaborative decision layer. Couples, co-founders, and families use Nexus as a shared reasoning space. It doesn't take sides — it surfaces where you agree, where you diverge, and what you each actually need.
 
-**Year 7–10:** The decision OS. Embedded across financial platforms, HR tools, healthcare portals, and real estate services. Every consequential decision point in a person's digital life has a Meridian layer.
+**Year 7–10:** The decision OS. Embedded across financial platforms, HR tools, healthcare portals, and real estate services. Every consequential decision point in a person's digital life has a Nexus layer.
 
 ## Why This Is Bigger Than a Chatbot
 
-A chatbot answers questions. Meridian solves a different problem entirely: it **models a person**, **classifies decisions**, **extracts values**, **weights criteria**, **simulates scenarios**, **quantifies risk**, and **generates transparent recommendations** — with a closed feedback loop that improves over time.
+A chatbot answers questions. Nexus solves a different problem entirely: it **models a person**, **classifies decisions**, **extracts values**, **weights criteria**, **simulates scenarios**, **quantifies risk**, and **generates transparent recommendations** — with a closed feedback loop that improves over time.
 
 The difference is the difference between a search engine and a doctor. One gives you information. The other synthesizes it against your specific situation and tells you what to do about it.
 
 ## The "Operating System for Decisions" Concept
 
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    NEXUS PLATFORM STACK                     │
+├─────────────────────────────────────────────────────────────┤
+│  APPLICATIONS     │ Consumer App │ API Partners │ Team Tools │
+├─────────────────────────────────────────────────────────────┤
+│  INTELLIGENCE     │ Decision Engine │ Risk Models │ Memory   │
+├─────────────────────────────────────────────────────────────┤
+│  DATA LAYER       │ User Profile │ Decision History │ Outcomes│
+├─────────────────────────────────────────────────────────────┤
+│  FOUNDATION       │ LLM Reasoning │ Domain Knowledge │ RAG   │
+└─────────────────────────────────────────────────────────────┘
+```
+
+The operating system metaphor is deliberate. Just as iOS is a platform on which applications run, Nexus is the reasoning infrastructure on which decision support is delivered — across categories, life stages, and use cases.
+
+---
+
+# 4. USER PERSONAS
+
+## Persona 1 — The Ambitious Professional
+**"Priya, 27, Product Manager, Bangalore"**
+
+| Attribute | Detail |
+|---|---|
+| **Situation** | Juggling a job offer from a funded startup vs. her current stable tech role |
+| **Decision Style** | Over-analytical, builds spreadsheets, still feels uncertain after 3 weeks |
+| **Core Fear** | Making a choice she'll regret in public — she's told people she's "thinking about it" |
+| **Trigger** | Has a decision deadline in 5 days |
+| **Emotional Pattern** | FOMO-driven; compares herself to peers constantly |
+| **What She Needs** | Someone to validate her reasoning AND push back on her blind spots |
+| **Monetization Potential** | High — will pay for premium if it saves career-defining decisions |
+
+---
+
+## Persona 2 — The Overwhelmed Couple
+**"Arjun & Meera, 33 & 31, Dual Income, First Home Buyers"**
+
+| Attribute | Detail |
+|---|---|
+| **Situation** | Deciding between two apartments with different trade-offs; disagreeing |
+| **Decision Style** | Arjun is data-first; Meera is intuition-first. Neither framework wins cleanly |
+| **Core Fear** | Resenting the choice (and each other) if it goes wrong |
+| **Trigger** | Landlord is pressuring them for a decision by Friday |
+| **Emotional Pattern** | Conflict avoidance leading to stalled decision |
+| **What They Need** | A neutral reasoning layer that surfaces where they agree and where they don't |
+| **Monetization Potential** | Very high — household subscription, long-term retention |
+
+---
+
+## Persona 3 — The First-Generation Wealth Builder
+**"Marcus, 24, Software Engineer, First in family to earn $100k+"**
+
+| Attribute | Detail |
+|---|---|
+| **Situation** | Has $20k saved, doesn't know whether to invest, pay off student debt, or keep liquid |
+| **Decision Style** | Paralyzed by not knowing what he doesn't know |
+| **Core Fear** | Making a "stupid" financial mistake that educated people wouldn't make |
+| **Trigger** | Friend mentioned index funds; now Googling for 3 hours with no clarity |
+| **Emotional Pattern** | High anxiety; shame about not knowing |
+| **What He Needs** | Judgment-free, clear education with a specific recommendation for his situation |
+| **Monetization Potential** | High lifetime value — will use for every financial milestone |
+
+---
+
+## Persona 4 — The Founder at a Fork
+**"Sunita, 36, Bootstrapped SaaS Founder"**
+
+| Attribute | Detail |
+|---|---|
+| **Situation** | Two enterprise deals on the table with very different implications for her roadmap |
+| **Decision Style** | Strong instincts, but wants to pressure-test them against structured thinking |
+| **Core Fear** | Picking the deal that constrains the product in ways she can't undo |
+| **Trigger** | Both deals want an answer within a week |
+| **Emotional Pattern** | High confidence, but aware of her own blind spots |
+| **What She Needs** | Debate mode — steelman the opposite of her current lean |
+| **Monetization Potential** | Very high — pays for professional tools; team plan likely |
+
+---
+
+## Persona 5 — The Analysis Paralysis User
+**"Daniel, 41, Marketing Director, Serial Researcher"**
+
+| Attribute | Detail |
+|---|---|
+| **Situation** | Has been "deciding" which laptop to buy for 6 weeks |
+| **Decision Style** | Research addiction — treats more information as the solution |
+| **Core Fear** | Choosing wrong; regret; being outsmarted by the market |
+| **Trigger** | His current laptop is actually broken now |
+| **Emotional Pattern** | Uses research as a comfort mechanism, not a decision tool |
+| **What He Needs** | Someone to tell him he has enough information and give him a clear answer |
+| **Monetization Potential** | Medium — will pay once he trusts the system |
+
+---
+
+## Persona 6 — The Life Transition Navigator
+**"Kavita, 48, Middle Manager, Empty Nester"**
+
+| Attribute | Detail |
+|---|---|
+| **Situation** | Considering a career pivot into consulting after 20 years in corporate |
+| **Decision Style** | Risk-averse, values security, but deeply unfulfilled |
+| **Core Fear** | Financial instability; being too old to pivot; what people will think |
+| **Trigger** | Got passed over for a promotion she expected |
+| **Emotional Pattern** | Decision deferred because the stakes feel existential |
+| **What She Needs** | Realistic scenario modeling + emotional acknowledgment before analysis |
+| **Monetization Potential** | High — life pivots generate sustained engagement |
+
+---
+
+# 5. PRODUCT EXPERIENCE & UX FLOWS
+
+## Onboarding Philosophy
+
+Nexus asks for **nothing upfront**. No forms. No lengthy profiles. The system learns by doing.
+
+```
 USER OPENS APP
-│
-▼
+      │
+      ▼
 "What are you trying to decide?"
-│
-▼
+      │
+      ▼
 User types freely (freeform dump mode)
-│
-▼
+      │
+      ▼
 System parses: decision type, options, concerns, missing info
-│
-▼
+      │
+      ▼
 First structured output: "Here's how I understand your decision..."
-│
-▼
+      │
+      ▼
 One clarifying question (never two)
-│
-▼
+      │
+      ▼
 Preliminary analysis delivered
-│
-▼
+      │
+      ▼
 Profile building happens silently in the background
+```
 
 The user is never aware of being onboarded. Onboarding IS the first decision.
 
@@ -183,17 +304,19 @@ The user is never aware of being onboarded. Onboarding IS the first decision.
 ### Mode 1 — Freeform Dump
 User writes or speaks naturally. System structures it.
 
-INPUT:  "I'm trying to decide whether to take this job offer.
-It pays more but it's a startup and I'm not sure if
-I should leave my current place..."
-SYSTEM PARSES:
-├── Decision Type: Career / Job Change
-├── Options: [Take Offer] [Stay Current]
-├── Stated Concerns: Stability, Compensation
-├── Unstated Concerns: Identity, Risk Tolerance
-├── External Influences: Partner preference mentioned
-└── Missing Info: Equity package, startup stage, current comp
+```
+INPUT:  "I'm trying to decide whether to take this job offer. 
+         It pays more but it's a startup and I'm not sure if 
+         I should leave my current place..."
 
+SYSTEM PARSES:
+  ├── Decision Type: Career / Job Change
+  ├── Options: [Take Offer] [Stay Current]
+  ├── Stated Concerns: Stability, Compensation
+  ├── Unstated Concerns: Identity, Risk Tolerance
+  ├── External Influences: Partner preference mentioned
+  └── Missing Info: Equity package, startup stage, current comp
+```
 
 ### Mode 2 — Structured Template
 Optional fast-lane for users who want precision. Category-specific templates surface the right questions for that domain.
@@ -214,37 +337,38 @@ For repeat decision types (weekly dinner plans, quarterly contractor hiring), te
 
 ## Core Recommendation Flow
 
+```
 DECISION RECEIVED
-│
-▼
+       │
+       ▼
 ┌─────────────────────────────────────────┐
 │  CLASSIFICATION LAYER                   │
 │  Domain / Reversibility / Stakes /      │
 │  Time Horizon / Social Complexity       │
 └─────────────────────────────────────────┘
-│
-▼
+       │
+       ▼
 ┌─────────────────────────────────────────┐
 │  VALUE EXTRACTION                       │
 │  Stated + Domain-standard + Profile     │
 │  derived + Downstream + Social criteria │
 └─────────────────────────────────────────┘
-│
-▼
+       │
+       ▼
 ┌─────────────────────────────────────────┐
 │  WEIGHTING ENGINE                       │
 │  User input + Inferred from history +   │
 │  Trade-off calibration exercises        │
 └─────────────────────────────────────────┘
-│
-▼
+       │
+       ▼
 ┌─────────────────────────────────────────┐
 │  TRADE-OFF MATRIX + SCENARIO SIMULATION │
 │  Best / Most Likely / Worst case        │
 │  Sensitivity analysis on key weights    │
 └─────────────────────────────────────────┘
-│
-▼
+       │
+       ▼
 ┌─────────────────────────────────────────┐
 │  RECOMMENDATION GENERATION              │
 │  One-sentence answer                    │
@@ -254,9 +378,10 @@ DECISION RECEIVED
 │  What would change my mind              │
 │  Confidence level + explanation         │
 └─────────────────────────────────────────┘
-│
-▼
+       │
+       ▼
 POST-DECISION FOLLOW-UP (30 days)
+```
 
 ---
 
@@ -277,18 +402,19 @@ POST-DECISION FOLLOW-UP (30 days)
 
 ## High-Level Architecture
 
+```
 ┌──────────────────────────────────────────────────────────────────────┐
 │                        CLIENT LAYER                                  │
 │        Web App │ Mobile App │ Voice Interface │ API Consumers        │
 └────────────────────────────┬─────────────────────────────────────────┘
-│
+                             │
 ┌────────────────────────────▼─────────────────────────────────────────┐
 │                      ORCHESTRATION LAYER                             │
 │   Session Manager │ Intent Router │ Context Assembler │ Output Former │
 └────────────────────────────┬─────────────────────────────────────────┘
-│
-┌──────────────────┼──────────────────┐
-│                  │                  │
+                             │
+          ┌──────────────────┼──────────────────┐
+          │                  │                  │
 ┌─────────▼──────┐  ┌────────▼───────┐  ┌──────▼────────────┐
 │  DECISION      │  │  MEMORY &      │  │  KNOWLEDGE        │
 │  ENGINE        │  │  PROFILE LAYER │  │  RETRIEVAL LAYER  │
@@ -300,11 +426,12 @@ POST-DECISION FOLLOW-UP (30 days)
 │ Risk Modeler   │  │ Outcome Log    │  │ Web Fetcher       │
 │ Rec Generator  │  │ Vector Store   │  │ RAG Pipeline      │
 └────────────────┘  └────────────────┘  └───────────────────┘
-│                  │                  │
+          │                  │                  │
 ┌─────────▼──────────────────▼──────────────────▼──────────────────────┐
 │                         FOUNDATION LAYER                             │
 │         LLM (Primary Reasoning) │ Embeddings │ Fine-tuned Classifiers│
 └──────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -312,6 +439,7 @@ POST-DECISION FOLLOW-UP (30 days)
 
 The **Decision Profile** is the core data asset of the product. It is not a form — it is a living model built through inference from conversation.
 
+```
 DECISION PROFILE
 ├── Life Context Layer
 │   ├── Financial snapshot (bucketed, not exact)
@@ -326,9 +454,10 @@ DECISION PROFILE
 │   └── Stated vs. revealed preference delta
 │
 └── History Layer
-├── Past decisions log
-├── Decision category models
-└── Outcome feedback
+    ├── Past decisions log
+    ├── Decision category models
+    └── Outcome feedback
+```
 
 **Storage Architecture:**
 
@@ -358,16 +487,18 @@ DECISION PROFILE
 
 ## Privacy & Security Architecture
 
+```
 DATA PRINCIPLES
 ├── Financial data: bucketed ranges only, never exact figures
 ├── Health data: volunteered only, stored encrypted, never used for ads
 ├── Conversation data: encrypted at rest and in transit
 ├── Profile data: user-owned, exportable, deletable on demand
 └── Outcome data: opt-in only, anonymized for aggregate modeling
+```
 
 **> Engineering Note:** Profile inference must be transparent to users — they can view, correct, and delete any inferred attribute. The system never uses profile data as opaque weights — every personalization must be explainable on request.
 
-**> Business Note:** Privacy architecture is not just ethical compliance — it is a core competitive differentiator. Users share deeply personal information with Meridian. The trust built by transparent data handling is directly correlated with depth of engagement and willingness to pay.
+**> Business Note:** Privacy architecture is not just ethical compliance — it is a core competitive differentiator. Users share deeply personal information with Nexus. The trust built by transparent data handling is directly correlated with depth of engagement and willingness to pay.
 
 ---
 
@@ -379,32 +510,39 @@ DATA PRINCIPLES
 
 Every incoming decision is classified across six dimensions before any reasoning begins:
 
+```
 CLASSIFICATION DIMENSIONS
 
-DOMAIN
-Financial │ Career │ Relational │ Health │ Logistics
-Consumer  │ Travel │ Educational│ Legal  │ Housing
-REVERSIBILITY
-◆ Two-way door  → Low caution, faster reasoning
-◆ One-way door  → High caution, deeper probing
-◆ Irreversible  → Maximum depth, explicit regret modeling
-STAKES
-Low ($0–$200, easily undone)
-Medium ($200–$5k or moderate life impact)
-High ($5k+ or significant life impact)
-Critical (health, major financial, irreversible)
-TIME HORIZON
-Immediate (< 24 hours) → compressed mode
-Short (< 2 weeks)      → standard mode
-Open                   → full depth mode
-SOCIAL COMPLEXITY
-Solo decision
-One stakeholder
-Multiple stakeholders with divergent interests
-INFORMATION COMPLETENESS
-What % of decision-relevant data does the system have?
-Surfaced to user: "I can give you a strong recommendation,
-but I'm missing X and Y — here's how that affects confidence."
+1. DOMAIN
+   Financial │ Career │ Relational │ Health │ Logistics
+   Consumer  │ Travel │ Educational│ Legal  │ Housing
+   
+2. REVERSIBILITY
+   ◆ Two-way door  → Low caution, faster reasoning
+   ◆ One-way door  → High caution, deeper probing
+   ◆ Irreversible  → Maximum depth, explicit regret modeling
+   
+3. STAKES
+   Low ($0–$200, easily undone)
+   Medium ($200–$5k or moderate life impact)
+   High ($5k+ or significant life impact)
+   Critical (health, major financial, irreversible)
+   
+4. TIME HORIZON
+   Immediate (< 24 hours) → compressed mode
+   Short (< 2 weeks)      → standard mode
+   Open                   → full depth mode
+   
+5. SOCIAL COMPLEXITY
+   Solo decision
+   One stakeholder
+   Multiple stakeholders with divergent interests
+   
+6. INFORMATION COMPLETENESS
+   What % of decision-relevant data does the system have?
+   Surfaced to user: "I can give you a strong recommendation,
+   but I'm missing X and Y — here's how that affects confidence."
+```
 
 ---
 
@@ -424,23 +562,28 @@ Before comparing options, the engine establishes the full criterion set:
 
 ### Step 3 — Weighting Engine
 
+```
 WEIGHT ASSIGNMENT HIERARCHY
 
-Explicit user input  ──────────────────────► Highest weight
-"Price is most important to me"
-Trade-off calibration exercises  ──────────► High weight
-"Would you rather have 20% more storage
-or 20% longer battery?"
-Revealed preferences from history  ────────► Medium weight
-Always chooses extended warranty
-→ Risk aversion flag set
-Stated-vs-revealed delta  ─────────────────► Adjusted weight
-Says price matters most, but history shows
-quality choices → quality weighted up,
-user informed of the gap
-Domain-standard defaults  ─────────────────► Baseline weight
-Used when profile is sparse
-
+1. Explicit user input  ──────────────────────► Highest weight
+   "Price is most important to me"
+   
+2. Trade-off calibration exercises  ──────────► High weight
+   "Would you rather have 20% more storage
+    or 20% longer battery?"
+    
+3. Revealed preferences from history  ────────► Medium weight
+   Always chooses extended warranty
+   → Risk aversion flag set
+   
+4. Stated-vs-revealed delta  ─────────────────► Adjusted weight
+   Says price matters most, but history shows
+   quality choices → quality weighted up,
+   user informed of the gap
+   
+5. Domain-standard defaults  ─────────────────► Baseline weight
+   Used when profile is sparse
+```
 
 ---
 
@@ -461,32 +604,42 @@ The engine evaluates every option against every weighted criterion, then interpr
 ---
 
 ### Step 5 — Risk & Scenario Modeling
+
+```
 FOR EACH OPTION:
+
 BEST CASE
 │   What has to go right?
 │   How likely is it?
 │   How good is it?
+
 MOST LIKELY CASE
 │   What actually happens most of the time?
 │   For this specific user's context?
+
 WORST CASE
 │   What could go wrong?
 │   How bad would it be for this user specifically?
 │   How does this user's financial/emotional profile
 │   affect the severity?
+
 KNOWN UNKNOWNS
 │   What information is missing that would change this?
 │   E.g. "If the startup doesn't raise Series B,
 │   the equity is worth much less"
+
 REGRET MODEL
 │   Which choice would this user regret more if wrong?
 │   Calibrated to their regret aversion profile.
+```
 
 ---
 
 ### Step 6 — Recommendation Generation
 
 Every recommendation is delivered in a structured six-part format:
+
+```
 ┌─────────────────────────────────────────────────────────┐
 │  THE RECOMMENDATION                                     │
 ├─────────────────────────────────────────────────────────┤
@@ -515,6 +668,7 @@ Every recommendation is delivered in a structured six-part format:
 │     LOW / MODERATE / HIGH / VERY HIGH                  │
 │     With specific explanation of uncertainty source.   │
 └─────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -522,9 +676,9 @@ Every recommendation is delivered in a structured six-part format:
 
 ## Core Interface Philosophy: Calm Intelligence
 
-Meridian's visual and interaction design is built around a single concept: **cognitive offloading without cognitive dependency**. The interface should feel like a well-lit workspace, not an exciting application.
+Nexus's visual and interaction design is built around a single concept: **cognitive offloading without cognitive dependency**. The interface should feel like a well-lit workspace, not an exciting application.
 
-> Design goal: When the user leaves a Meridian session, they feel **clearer**, not more stimulated.
+> Design goal: When the user leaves a Nexus session, they feel **clearer**, not more stimulated.
 
 ## Design Principles
 
@@ -541,6 +695,8 @@ Meridian's visual and interaction design is built around a single concept: **cog
 ## Layout Concepts
 
 ### Desktop — Three-Panel Layout
+
+```
 ┌─────────────┬─────────────────────────────┬───────────────┐
 │  DECISION   │    MAIN ANALYSIS AREA        │  CONTEXT      │
 │  HISTORY    │                             │  PANEL        │
@@ -561,10 +717,13 @@ Meridian's visual and interaction design is built around a single concept: **cog
 │             │  │  CONFIDENCE  ████░░ │    │               │
 │             │  └─────────────────────┘    │               │
 └─────────────┴─────────────────────────────┴───────────────┘
+```
 
 ### Mobile — Conversational-First, Reveal on Scroll
+
+```
 ┌─────────────────────────┐
-│  MERIDIAN               │
+│  NEXUS                  │
 │  ─────────────────────  │
 │                         │
 │  "Here's how I see your │
@@ -587,38 +746,51 @@ Meridian's visual and interaction design is built around a single concept: **cog
 │                         │
 │  [ Ask a follow-up ]    │
 └─────────────────────────┘
+```
 
 ---
 
 ## Trade-Off Visualization
 
 For decisions with multiple weighted criteria, the system renders a visual trade-off summary:
+
+```
 YOUR PRIORITIES vs. HOW OPTIONS SCORE
-                Option A    Option B
+
+                    Option A    Option B
 Price         ██░░░    ★★★★★      ★★☆☆☆
 Battery Life  ████░    ★★★☆☆      ★★★★★
 Camera        ███░░    ★★★★☆      ★★★☆☆
 Repairability █░░░░    ★★★★★      ★★★☆☆
 Software Upd  ██░░░    ★★★☆☆      ★★★★★
+
 Bar = your weight for that criterion
 Stars = how each option scores
+
 VERDICT: Option A dominates on your weighted priorities.
 The camera gap is real but your weight there is low.
+```
 
 ---
 
 ## Confidence Visualization
+
+```
 CONFIDENCE IN THIS RECOMMENDATION
-Very High ████████████
-High  █████████░░░ ◄ Current
+
+Very High ████████████ 
+    High  █████████░░░ ◄ Current
 Moderate  ██████░░░░░░
-Low  ███░░░░░░░░░
+     Low  ███░░░░░░░░░
+
 What's driving uncertainty:
-◆ I don't have your current comp to compare against
-◆ Equity value depends on a future funding event
+  ◆ I don't have your current comp to compare against
+  ◆ Equity value depends on a future funding event
+  
 What would raise confidence to Very High:
-→ Tell me your current total comp
-→ Share the startup's last funding round details
+  → Tell me your current total comp
+  → Share the startup's last funding round details
+```
 
 ---
 
@@ -673,24 +845,27 @@ What would raise confidence to Very High:
 
 | Feature | Vision |
 |---|---|
-| **Multi-agent domain specialists** | Separate AI agents per domain (financial, legal, medical) coordinated by Meridian's orchestration layer |
+| **Multi-agent domain specialists** | Separate AI agents per domain (financial, legal, medical) coordinated by Nexus's orchestration layer |
 | **Outcome prediction calibration** | Track actual vs. predicted outcomes to publicly report recommendation accuracy by category |
 | **Life simulation mode** | "If you make this choice, here's what your financial profile looks like in 5 years" |
 | **Family decision OS** | Shared household profile with individual private layers; surfaces family-level alignment |
 | **Expert marketplace** | Connect to verified human advisors for decisions beyond AI confidence threshold |
 | **Anonymized community benchmarks** | Opt-in: "Here's how people with similar profiles resolved this type of decision" |
-| **API layer** | Meridian's reasoning engine embedded in financial platforms, HR tools, real estate portals |
+| **API layer** | Nexus's reasoning engine embedded in financial platforms, HR tools, real estate portals |
 
 ---
 
 # 10. MONETIZATION STRATEGY
 
 ## Pricing Architecture
+
+```
 FREE TIER
 ├── Up to 5 decisions/month
 ├── Session-level profile only (no persistence)
 ├── Standard recommendation format
 └── Purpose: acquisition, habit formation, viral distribution
+
 PRO — $12/month or $99/year
 ├── Unlimited decisions
 ├── Persistent Decision Profile
@@ -699,6 +874,7 @@ PRO — $12/month or $99/year
 ├── Document and URL intake
 ├── 30-day follow-up system
 └── Purpose: primary revenue driver; high LTV for engaged users
+
 PREMIUM — $29/month or $249/year
 ├── Everything in Pro
 ├── Collaborative decision mode (up to 4 people)
@@ -706,17 +882,20 @@ PREMIUM — $29/month or $249/year
 ├── Priority processing
 ├── Export to PDF/shareable format
 └── Purpose: power users, couples, small teams
+
 TEAM / STARTUP — $79/month (up to 10 seats)
 ├── Shared workspace with individual profiles
 ├── Team decision tracking
 ├── Founder-specific frameworks
 └── Purpose: B2B expansion, higher ACV
+
 ENTERPRISE — Custom
 ├── API access to decision engine
 ├── White-label options
 ├── Custom domain frameworks
 ├── SSO, compliance, audit logs
 └── Purpose: embedded in HR, financial, healthcare platforms
+```
 
 ---
 
@@ -729,7 +908,7 @@ ENTERPRISE — Custom
 | Enterprise clients want to own the AI layer | Partner model rather than compete; provide reasoning API they embed |
 | Users feel manipulated if they sense commercial bias | Zero advertising model; no affiliate recommendations; explicit policy |
 
-**> Business Note:** Meridian's ethical constraint is also its business constraint: the moment a user suspects a recommendation is influenced by commercial considerations, trust collapses. No affiliate model. No sponsored placements. Revenue comes from users, not from the options they're evaluating.
+**> Business Note:** Nexus's ethical constraint is also its business constraint: the moment a user suspects a recommendation is influenced by commercial considerations, trust collapses. No affiliate model. No sponsored placements. Revenue comes from users, not from the options they're evaluating.
 
 ---
 
@@ -737,7 +916,7 @@ ENTERPRISE — Custom
 
 ## Positioning
 
-> **Meridian is not an AI assistant. It's a thinking partner.**
+> **Nexus is not an AI assistant. It's a thinking partner.**
 
 The positioning deliberately avoids "AI" as the lead message — because the category is crowded and the differentiator is not the AI, it's the **methodology** and the **memory**.
 
@@ -768,33 +947,40 @@ Messaging hierarchy:
 ---
 
 ## Growth Loops
-CORE VIRAL LOOP
-User gets a great recommendation
-│
-▼
-User shares the analysis with someone involved in the decision
-│
-▼
-That person sees the reasoning quality
-│
-▼
-That person signs up to analyze their own decision
-│
-▼
-Loop repeats
 
+```
+CORE VIRAL LOOP
+
+User gets a great recommendation
+        │
+        ▼
+User shares the analysis with someone involved in the decision
+        │
+        ▼
+That person sees the reasoning quality
+        │
+        ▼
+That person signs up to analyze their own decision
+        │
+        ▼
+Loop repeats
+```
+
+```
 CONTENT LOOP
-Meridian publishes category-specific decision guides
+
+Nexus publishes category-specific decision guides
 (How to evaluate a job offer / How to compare health insurance)
-│
-▼
+        │
+        ▼
 Ranks on search for high-intent queries
-│
-▼
+        │
+        ▼
 Readers convert to free tier to apply the framework to their situation
-│
-▼
+        │
+        ▼
 Free tier experience converts to Pro
+```
 
 ---
 
@@ -804,7 +990,7 @@ Free tier experience converts to Pro
 |---|---|
 | **Decision History** | The longer you use it, the richer your profile — leaving means losing your history |
 | **Follow-up Loops** | 30-day check-ins bring users back to close the feedback loop |
-| **Proactive Alerts** | Upcoming lease renewals, subscription anniversaries — Meridian initiates re-engagement |
+| **Proactive Alerts** | Upcoming lease renewals, subscription anniversaries — Nexus initiates re-engagement |
 | **Journal Value** | "Your decision archive" becomes a genuinely meaningful personal record |
 
 ---
@@ -813,7 +999,7 @@ Free tier experience converts to Pro
 
 ## The Landscape
 
-| Competitor | What They Do | Why Meridian Is Different |
+| Competitor | What They Do | Why Nexus Is Different |
 |---|---|---|
 | **ChatGPT / Claude** | General-purpose conversation | No user model, no methodology, no memory, no structured output format |
 | **Perplexity** | Search with AI synthesis | Information retrieval, not decision reasoning; no personalization |
@@ -823,18 +1009,20 @@ Free tier experience converts to Pro
 | **Therapists / Coaches** | Human reasoning support | Expensive; limited to specialty; unavailable in-moment; not scalable |
 | **Rewind / Memory tools** | Personal data capture | No reasoning layer; retrieval without analysis |
 
-## Meridian's Defensible Differences
+## Nexus's Defensible Differences
+
+```
 WHAT NO ONE ELSE HAS — ALL AT ONCE
 
-A structured methodology purpose-built for decisions
-A persistent user model that improves with every interaction
-Domain-specific reasoning frameworks (not generic conversation)
-Transparent reasoning traces (not black-box answers)
-A closed feedback loop through outcome tracking
-The ability to model trade-offs across weighted user-specific criteria
+1. A structured methodology purpose-built for decisions
+2. A persistent user model that improves with every interaction  
+3. Domain-specific reasoning frameworks (not generic conversation)
+4. Transparent reasoning traces (not black-box answers)
+5. A closed feedback loop through outcome tracking
+6. The ability to model trade-offs across weighted user-specific criteria
+```
 
-
-The critical insight: **Meridian's competitors are tools that can be used for decisions. Meridian is a tool built for decisions.** That specificity is the moat.
+The critical insight: **Nexus's competitors are tools that can be used for decisions. Nexus is a tool built for decisions.** That specificity is the moat.
 
 ---
 
@@ -860,7 +1048,7 @@ The critical insight: **Meridian's competitors are tools that can be used for de
 
 | Risk | Severity | Likelihood |
 |---|---|---|
-| User makes a bad financial/health decision and attributes it to Meridian | High | Low-Medium |
+| User makes a bad financial/health decision and attributes it to Nexus | High | Low-Medium |
 
 **Mitigation:**
 - Clear "not financial advice / not medical advice" framing — not in fine print, but structurally integrated into the recommendation format
@@ -874,7 +1062,7 @@ The critical insight: **Meridian's competitors are tools that can be used for de
 
 | Risk | Severity | Likelihood |
 |---|---|---|
-| Users become unable to make any decision without consulting Meridian | Medium | Medium |
+| Users become unable to make any decision without consulting Nexus | Medium | Medium |
 
 **Mitigation:**
 - Product design explicitly builds user decision-making skills, not just decisions
@@ -1061,9 +1249,9 @@ This has always been true. What has changed is that the tools to fix it now exis
 
 A system that genuinely knows you — your financial reality, your values, your history of choices and their outcomes — and can apply structured reasoning to the specific decision in front of you is no longer science fiction. It is an engineering and product challenge. A hard one. But a solvable one.
 
-## Why Meridian
+## Why Nexus
 
-The difference between Meridian and everything that has come before is not the AI. It is the **specificity of purpose**. Every design decision, every technical choice, every product constraint in this document exists in service of one thing: helping real humans make better decisions.
+The difference between Nexus and everything that has come before is not the AI. It is the **specificity of purpose**. Every design decision, every technical choice, every product constraint in this document exists in service of one thing: helping real humans make better decisions.
 
 Not faster information retrieval. Not a smarter chatbot. Not another productivity tool.
 
@@ -1077,16 +1265,17 @@ That system will know that you tend to underweight long-term financial consequen
 
 It will use all of that — not to decide for you, but to help you decide as the most rational, most self-aware, most well-informed version of yourself.
 
-That is Meridian.
+That is Nexus.
 
 And the decision to build it — we believe — is one of the clearest we could make.
 
 ---
 
 *Built for those who believe that better reasoning leads to better lives.*  
-*Meridian — Decision Intelligence for Every Fork in the Road.*
+*Nexus — Decision Intelligence for Every Fork in the Road.*
 
 ---
 
 > **Document Status:** Living specification. Updated as product evolves.  
 > **Owner:** Het Doshi
+````
