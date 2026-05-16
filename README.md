@@ -1,4 +1,4 @@
-````markdown
+
 # NEXUS — Executive Product Specification
 ### AI-Powered Decision Intelligence Platform
 
@@ -1278,4 +1278,3 @@ And the decision to build it — we believe — is one of the clearest we could 
 
 > **Document Status:** Living specification. Updated as product evolves.  
 > **Owner:** Het Doshi
-````
